@@ -8,15 +8,25 @@ button{font-size: 10px;
     background-color: aqua;
     border-radius: 10px;}
     h2{font-size: 10px;}
-img{width: 100px;
-    height: 100px;
-    overflow: hidden;
-margin: 20px;}
-ul{text-decoration: none;
+img{width: 100%;
+    max-width: 100px;
+     margin: 20px;}
+     h2{font-size: 12px;
+    text-align: center;}
+
+ul, li{text-decoration: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
 position: relative;}
 .icon-telegram, .icon-instagram{ display: block;
-      width: 5px;
-    height: 5px;
+      width: 15px;
+    height: 15px;
     position: absolute;}
-    .icon-telegram{ transform: translateX(200px);}
+    .icon-telegram{ transform: translateX(20px);}
+    .footer{display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    h4{text-indent: 2px;
+    text-overflow: ellipsis;}
